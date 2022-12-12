@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>slider</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="reset.css" type="text/css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="info_container">
+                <h1 class="title">Completed<br> projects</h1>
+                <div class="line"></div>
+                <p class="subtitle _subtitle">
+                    Only a small part of the work performed by our company is presented<br>
+                    on the site. For 14 years on in the construction<br>
+                    market we have made happy more than 1000 families
+                </p>
+                <div class="add_title">
+                    <h1 class="subtitle_text sub1">City:</h1>
+                    <h2 class="subtitle_text sub2">Repair time:</h2>
+                    <h3 class="subtitle_text sub3">apartment area:</h3>
+                    <h4 class="subtitle_text sub4">Repair Cost:</h4>
+                </div>
+            </div>
+            <div class="slideshow_container">
+                <div class="mySlides fade">
+                    <div class="slider_subtitle _subtitle">
+                        <p class="slider_text1 _subtitle">
+                            Rostov-on-Don<br>
+                            LCD admiral
+                        </p>
+                        <p class="slider_text2 _subtitle">3.5 months</p>
+                        <p class="slider_text3 _subtitle">81 m2</p>
+                        <p class="slider_text4 _subtitle">Upon request</p>
+                    </div>
+                    <img src="img/image%202.1%20(1).png" alt="img1">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="slider_subtitle _subtitle">
+                        <p class="slider_text1 _subtitle">
+                            Sochi<br>
+                            Thieves
+                        </p>
+                        <p class="slider_text2 _subtitle">4 months</p>
+                        <p class="slider_text3 _subtitle">105 m2</p>
+                        <p class="slider_text4 _subtitle">Upon request</p>
+                    </div>
+                    <img src="img/image%202%20(1).png" alt="img2">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="slider_subtitle _subtitle">
+                        <p class="slider_text1 _subtitle">
+                            Rostov-on-Don<br>
+                            Patriotic
+                        </p>
+                        <p class="slider_text2 _subtitle">3 months</p>
+                        <p class="slider_text3 _subtitle">93 m2</p>
+                        <p class="slider_text4 _subtitle">Upon request</p>
+                    </div>
+                    <img src="img/image%203.png" alt="img3">
+                </div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)"><img src="img/Groupleftarrow.png" alt="left"></a>
+            <a class="next" onclick="plusSlides(1)"><img src="img/Grouprightarrow.png" alt="right"></a>
+
+            <div class="dots_item">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+            <div class="slider_link">
+                <span class="link _link1" onclick="currentSlide(1)">Rostov-on-Don, Admiral</span>
+                <span class="link _link1" onclick="currentSlide(2)">Sochi Thieves</span>
+                <span class="link" onclick="currentSlide(3)">Rostov-on-Don Patriotic</span>
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>

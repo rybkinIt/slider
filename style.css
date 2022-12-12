@@ -1,0 +1,195 @@
+*,*::before, *::after{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Nunito Sans';
+    src: local("NunitoSans-Regular"),
+    url(./fonts/NunitoSans-Regular.ttf);
+}
+@font-face {
+    font-family: 'Nunito Sans italic';
+    src: url(./fonts/NunitoSans-italic.ttf);
+}
+@font-face {
+    font-family: 'Yeseva One';
+    src: url(./fonts/YesevaOne-Regular.ttf);
+}
+.wrapper{
+    min-height: 100%;
+    overflow: hidden;
+    background: #131313;
+    height: 1707px;
+}
+.container{
+    position: center;
+    max-width: 1410px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: content-box;
+}
+.title{
+    font-family: 'Yeseva One', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+
+    color: #E3B873;
+}
+.line{
+    border-bottom: 2px #E3B873 solid;
+    color: #E3B873;
+    width: 92px;
+}
+._subtitle{
+    font-family: 'Nunito Sans',serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+}
+.add_title{
+    font-family: 'Yeseva One', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+
+    color: #E3B873;
+}
+.link{
+    cursor: pointer;
+    font-family: 'Yeseva One',serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+
+    color: rgba(255, 255, 255, 0.3);
+}
+.dot{
+    cursor: pointer;
+    width: 9px;
+    height: 9px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    margin-left: 17px;
+}
+.active, dot:hover{
+    background-color: #FFFFFF;
+}
+.active_link, link:hover{
+    text-transform: uppercase;
+    border-bottom: 1px solid #E3B873;
+    padding-bottom: 3px;
+    color: #E3B873;
+}
+.prev, .next{
+    cursor: pointer;
+}
+.info_container{
+    position: absolute;
+    display: flex;
+    margin-left: 120px;
+}
+.line{
+    position: absolute;
+    display: flex;
+    margin-left: 160px;
+    margin-top: 52px;
+
+}
+.subtitle{
+    position: absolute;
+    display: flex;
+    white-space: nowrap;
+    margin-top: 98px;
+
+}
+.title{
+    position: absolute;
+    white-space: nowrap;
+}
+.add_title{
+    position: absolute;
+    margin-top: 227px;
+
+}
+.sub2{
+    white-space: nowrap;
+    position: absolute;
+    margin-top: 83px;
+}
+.sub3{
+    white-space: nowrap;
+    margin-left: 189px;
+    margin-top: -24px;
+
+}
+.sub4{
+    position: absolute;
+    margin-left: 189px;
+    margin-top: 82px;
+
+}
+.slideshow_container{
+    margin-top: 175px;
+    margin-left: 611px;
+}
+.slider_subtitle{
+    position: absolute;
+    display: flex;
+    margin-left: -492px;
+    margin-top: 256px;
+}
+.slider_text2{
+    position: absolute;
+    margin-top: 107px;
+    white-space: nowrap;
+}
+.slider_text3{
+    position: absolute;
+    margin-left: 189px;
+    white-space: nowrap;
+}
+.slider_text4{
+    position: absolute;
+    margin-top: 107px;
+    margin-left: 189px;
+    white-space: nowrap;
+}
+.slider_link{
+    position: absolute;
+    display: flex;
+    margin-top: -553px;
+    margin-left: 610px;
+}
+._link1{
+    margin-right: 60px;
+}
+.dots_item{
+    text-align: center;
+    position: absolute;
+    margin-left: 173px;
+    margin-top: -18px;
+}
+.prev{
+    position: absolute;
+    display: flex;
+    margin-left: 120px;
+    margin-top: -14px;
+}
+.next{
+    position: absolute;
+    display: flex;
+    margin-left: 283px;
+    margin-top: -14px;
+}
